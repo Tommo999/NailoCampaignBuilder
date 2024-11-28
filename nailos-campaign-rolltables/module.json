@@ -1,0 +1,40 @@
+{
+  "id": "nailos-campaign-rolltables",
+  "title": "Nailo's Campaign Rolltables",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Prince Nailo",
+      "discord": "princenailo",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "cb-tables",
+      "label": "CB: Tables",
+      "path": "packs/cb-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "cb-macro",
+      "label": "CB: Macro",
+      "path": "packs/cb-macro",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
